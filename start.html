@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="start.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section>
+        <div class = "container1">
+            <div class="group1">
+                <div class = "image1">
+                    <img src="icons/Vector.svg" alt="break" >
+                </div>
+                <div class = "image2">
+                    <img src="icons/icons8-layer-64 3.svg" alt="even">
+    
+                </div>
+            </div>
+        
+                
+            <div class="group2">
+                <div class ="image3 day" >
+                    <img src="icons/icons8-sun 2.svg" alt="sun" srcset="">
+        
+                     </div>
+        
+                        <div class = "image4 night">
+                            <img src="icons/Vector (1).svg" alt="moon" srcset="">
+                        </div>
+        
+                    </div>
+            </div>
+        
+        
+        
+
+
+        </div>
+
+        <div class = "container2"> 
+            <div class = "space">
+                <h2>SPACE DATA</h2>
+                <img src="icons/icons8-minus-24 1 (2).svg" alt="bend" srcset="">
+            </div>
+            <div class = "timer">
+                <img src="icons/icons8-time-90 1.svg" alt="" srcset="">
+
+            </div>
+            <div class = "timer2">
+                <img src="icons/Vector (2).svg" alt="" srcset="">
+
+            </div>
+            
+            
+            <div class = "time">
+                <h3>Time</h3>
+                <img src="icons/icons8-minus-24 1 (2).svg" alt="bend" srcset="">
+            </div>
+
+              <div class = "date">
+                <h4>202215</h4>
+                <img src="icons/icons8-minus-24 1 (2).svg" alt="bend" srcset="">
+              </div>
+            
+            
+
+            <div class = "checkbox">
+                <ul>
+                    <li>
+                        <input type="checkbox" name="check" id="under"><label for="under">Select all</label>
+                   
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="1"><label for="1">00000.zip(46mb)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="2"><label for="2">00001.zip(76mb)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="3"><label for="3">00002.zip(106mb)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="4"><label for="4">00003.zip(143mb)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="5"><label for="5">00004.zip(46mb)</label>
+                   
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="6"><label for="6">00005.zip(76mb)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="7"><label for="7">00006.zip(106mb)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="check" id="8"><label for="8">00007.zip(143mb)</label>
+                    </li>
+                   
+                </ul>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <script>
+         $(document).ready(function(){
+      $(".day").click(function(){
+        $("body").css("background-color","whitesmoke");
+        $("h1,h2,h3,h4,li").css("color","black");
+        $(".time").css("background-color", "sky-blue");
+        $(".image3 img").css("box-shadow", "0px 2px 2px 1px rgba(0, 0, 0, 0.04");
+        $(".group2").css("background-color","White");
+       
+        
+       
+      });
+      $(".night").click(function(){
+        $("body").css("background-color","#3339CD");
+        $("h1,h2,h3,h4,li").css("color","white");
+        $(".time").css("background-color", "#676AD8");
+        $(" .image4 img").css("box-shadow" , "0px 2px 2px 1px rgba(0, 0, 0, 0.04)");
+        $(".image4 img").css("border", "1px solid #989BFF");
+        $(".group2").css("border", "1px solid #989BFF");
+        $(".group2").css("background-color","#3339CD");
+        $(".group2").css("border-radius", "10px");
+        
+        
+      
+
+        
+        
+       
+      });
+    });
+    </script>
+</body>
+</html>
